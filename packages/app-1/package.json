@@ -1,9 +1,9 @@
 {
   "name": "@monorepo-test/app-1",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": true,
   "dependencies": {
-    "@monorepo-test/common": "^0.0.5",
+    "@monorepo-test/common": "^0.0.6",
     "cra-template": "1.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
