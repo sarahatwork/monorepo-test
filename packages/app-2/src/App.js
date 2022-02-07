@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Text from '@monorepo-test/common/components/Text';
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Regular text</h1>
+        <Text>Common Component package</Text>
       </header>
     </div>
   );
