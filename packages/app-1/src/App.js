@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import Text from '@jibin/common/components/Text';
+import Text from '@monorepo-test/common/components/Text';
 import './App.css';
 
 function App() {
