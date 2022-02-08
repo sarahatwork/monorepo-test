@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "private": true,
   "dependencies": {
-    "@monorepo-test/common": "workspace:^",
+    "@monorepo-test/common": "https://github.com/sarahatwork/monorepo-test#commit=4fb2787ef472d42e01f96de84f4562767e135d98&workspace=@monorepo-test/common",
     "cra-template": "1.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

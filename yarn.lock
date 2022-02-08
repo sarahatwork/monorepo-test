@@ -2677,7 +2677,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@monorepo-test/app-2@workspace:packages/app-2"
   dependencies:
-    "@monorepo-test/common": "workspace:^"
+    "@monorepo-test/common": "https://github.com/sarahatwork/monorepo-test#commit=4fb2787ef472d42e01f96de84f4562767e135d98&workspace=@monorepo-test/common"
     cra-template: 1.0.3
     customize-cra: ^1.0.0
     react: ^16.13.1
@@ -2686,6 +2686,13 @@ __metadata:
     react-scripts: 3.4.1
   languageName: unknown
   linkType: soft
+
+"@monorepo-test/common@https://github.com/sarahatwork/monorepo-test#commit=4fb2787ef472d42e01f96de84f4562767e135d98&workspace=@monorepo-test/common":
+  version: 0.0.6
+  resolution: "@monorepo-test/common@https://github.com/sarahatwork/monorepo-test.git#workspace=%40monorepo-test%2Fcommon&commit=4fb2787ef472d42e01f96de84f4562767e135d98"
+  checksum: 0dc47de879b1293ee4c8c87edadedaa3bec7ab8b2b15292435e0f07bda849822a98b7e9f9849201ecaf818fade3e0beaf2e64205caf2b8f6e73548a31a2c6265
+  languageName: node
+  linkType: hard
 
 "@monorepo-test/common@workspace:^, @monorepo-test/common@workspace:packages/common":
   version: 0.0.0-use.local
